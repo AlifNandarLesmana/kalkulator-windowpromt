@@ -1,0 +1,28 @@
+body {
+    background-color:  grey;
+    margin: 20px;
+}
+
+.kotak {
+    background: green;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: auto;
+    padding: 2px;
+}
+
+.kotak1 {
+    background: aqua;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 2px;
+}
+
+.kotak2 {
+    background: chocolate;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin-top: 2px;
+    padding: 2px;
+}

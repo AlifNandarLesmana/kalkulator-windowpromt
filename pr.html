@@ -1,0 +1,14 @@
+<script>
+   const arr = [
+      'merah', 'kuning', 'ijo', 'Abu2'
+   ];
+   arr.forEach(e => {
+      console.log(e);
+   });
+   document.write("Noh Liat Tuh:");
+   document.write('<br>');
+   let tinggi = prompt("Masukkan Nilai Yang Anda Mau");
+   for (let baris = 0; baris < tinggi; baris++) {
+      document.writeln('&nbsp;'.repeat((tinggi - baris) * 1) + '*'.repeat(1 * baris) + '<br>')
+   }
+</script>
